@@ -232,6 +232,8 @@ This project is for evaluation purposes only. All rights reserved by the author.
 
 For issues or questions regarding this evaluation project, please refer to the submission guidelines provided by SWTS.
 
+## Demo Video:
+[Watch Demo](https://www.loom.com/share/299ecedfe5ba454e8c5c7d137a38844d)
 
 ## Submitted By:
 Aryan Gupta
