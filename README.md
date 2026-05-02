@@ -9,10 +9,10 @@ A full-stack application that streams live market data from Delta Exchange and v
 - **Real-time Data Streaming**: Connects to Delta Exchange WebSocket API for live market data
 - **BTCUSD Focus**: Supports BTCUSD perpetual contracts (limited by Delta Exchange's 1 symbol subscription for orderbook)
 - **Interactive Visualizations**: 
-  - Real-time candlestick charts
+  - Real-time charts
   - Live order book ladder
   - Rolling trade tape
-  - Derived metrics (VWAP, bid-ask spread, price changes)
+  - Derived metrics (VWAP, price changes)
 - **SWTS Theme**: Uses SWTS teal color (#00897B) throughout the interface
 - **Special Features**: "Bitcoin Heartbeat" title for BTCUSD instrument
 - **Responsive Design**: Optimized for traders to read at a glance
@@ -96,10 +96,10 @@ The frontend will start on `http://localhost:3000`
 
 1. Open your browser and navigate to `http://localhost:3000`
 2. View real-time market data for BTCUSD including:
-   - Live candlestick charts
+   - Live charts
    - Order book with bid/ask levels
    - Recent trades tape
-   - Market metrics (VWAP, spread, price changes)
+   - Market metrics (VWAP,  price changes)
 
 ## Data Sources
 
@@ -123,11 +123,11 @@ The application calculates and displays several derived metrics in real-time:
 
 ## SWTS Specific Features
 
-1. ✅ **Fingerprint**: README starts with "Built for SWTS — Tick #847"
-2. ✅ **Accent Color**: SWTS teal (#00897B) used throughout the interface
-3. ✅ **Bitcoin Heartbeat**: Special title for BTCUSD instrument
-4. ✅ **Tooltip**: Contains "May the spread be tight" text
-5. ✅ **Git Commit**: At least one commit with "feat(socket):" prefix
+1.  **Fingerprint**: README starts with "Built for SWTS — Tick #847"
+2.  **Accent Color**: SWTS teal (#00897B) used throughout the interface
+3.  **Bitcoin Heartbeat**: Special title for BTCUSD instrument
+4.  **Tooltip**: Contains "May the spread be tight" text
+5.  **Git Commit**: At least one commit with "feat(socket):" prefix
 
 ## Development
 
@@ -152,7 +152,7 @@ npm run build
 ```
 
 ## Environment Variables
-
+Added as well in the project files to make it easier to run the application by the evaluator.
 ### Backend (.env)
 ```
 DELTA_WS_URL=wss://public-socket.india.delta.exchange
