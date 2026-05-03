@@ -80,14 +80,9 @@ The backend will start on `http://localhost:5000`
 cd frontend
 ```
 
-2. Install dependencies:
+2. Start the React development server:
 ```bash
-npm install
-```
-
-3. Start the React development server:
-```bash
-npm start
+serve -s build
 ```
 
 The frontend will start on `http://localhost:3000`
@@ -130,18 +125,6 @@ The application calculates and displays several derived metrics in real-time:
 5.  **Git Commit**: At least one commit with "feat(socket):" prefix
 
 ## Development
-
-### Running Tests
-
-```bash
-# Backend tests
-cd backend
-python -m pytest
-
-# Frontend tests
-cd frontend
-npm test
-```
 
 ### Building for Production
 
