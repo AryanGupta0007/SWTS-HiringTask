@@ -34,7 +34,7 @@ timeout /t 3 /nobreak
 REM Start frontend
 echo Starting React frontend...
 cd frontend
-start "Frontend" npm start
+start "Frontend" npx serve -s build
 cd ..
 
 echo Application started!
