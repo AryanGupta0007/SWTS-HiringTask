@@ -36,7 +36,7 @@ sleep 3
 # Start frontend
 echo "Starting React frontend..."
 cd frontend
-npm start &
+npx serve -s build &
 FRONTEND_PID=$!
 cd ..
 
